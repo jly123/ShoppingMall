@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+
+	<package name="basicstruts2" extends="struts-default" >
+		<action name="releaseGoods">
+			<result>goods.jsp</result>
+		</action>
+		<!-- 学校处理 -->
+		<action name="SchoolAction" class="com.anthony.Action.SchoolAction">
+			<result name="school_success">school.jsp</result>
+		</action>
+		
+		<!-- 商品处理 -->
+		<action name="GoodAction" class="com.anthony.Action.GoodAction">
+			<result name="Details_success">Commodity_ details.jsp</result>
+			<result name="good_success">index.jsp</result>
+			<result name="typegood_success">Classified_page.jsp</result>
+			<result name="FuzzyGoods_success">Classified_page.jsp</result>
+			<result name="UserGood_success">Userinfor.jsp</result>
+			<result name="OthersGood_success">information.jsp</result>
+		</action>
+		
+		<!--登陆处理-->
+		<action name="users" class="com.anthony.Action.UsersAction" >
+			<result name="success" type="redirectAction">
+			<param name="actionName">GoodAction</param>
+			<param name="method">getAllGoods</param>
+			</result>
+			<result name="register_success">MyJsp.jsp</result>
+			<result name="selUser_success">Personal_Center.jsp</result>
+		</action>
+		
+		<action name="CurdGoodAction" class="com.anthony.Action.CurdGoodAction">
+			<result name="success">MyJsp.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+<!--
+<interceptors>
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="timer"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack"></default-interceptor-ref>
+			<result name="upload_success" type="redirectAction">
+			<param name="actionName">code</param>
+			<param name="method">list</param>
+			</result>
+		</action>
+  	
+		<action name="*" class="com.lw.Action.UserAction" method="{1}">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="logout" class="com.lw.Action.UserAction" method="logout">
+			<result name="success">/index.jsp</result>
+		</action>
+-->
+
+	</package>
+
+</struts>

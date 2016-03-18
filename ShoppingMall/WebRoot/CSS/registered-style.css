@@ -1,0 +1,60 @@
+*{padding: 0px; margin: 0px; border: 0px;}
+body{font-family: "微软雅黑"; background-color: #eeeeee;}
+body,html {height:100%;}
+
+h1,h4{color: #ffffff;}
+
+.green{color: #02e207;}
+.white{color: #ffffff;}
+.light_grey{color:#eeeeee;}
+.light_pink{color:#eb5967;}
+
+.submit_btn{cursor: pointer;margin: 0px 6px 0px 0px; padding: 2px 8px 2px 8px;  font-family: "微软雅黑"; background-color: #4BC0A5; color: #FFFFFF; font-size: 15px;}
+.submit_btn:hover{background-color: #00AD91;}
+.normal_btn{cursor: pointer;margin: 0px 6px 0px 0px; padding: 2px 8px 2px 8px;  font-family: "微软雅黑"; color: #666666; font-size: 15px; background-color: #dddddd;}
+.normal_btn:hover{background-color: #FFFFFF; color: #666666;}
+.grey_btn{cursor: pointer; margin: 0px 6px 0px 0px; padding: 2px 8px 2px 8px;  font-family: "微软雅黑"; background-color: #4BC0A5; color: #FFFFFF; font-size: 15px;}
+.grey_btn:hover{background-color: #00AD91;}
+.large_btn{ height: 36px; padding: 4px 20px 4px 20px; font-size: 20px;}
+.body #main form input {
+	height: 21px;
+	margin: 5px 6px 5px 0px;
+	padding: 2px 0px 2px 4px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	width: 200px;
+	border: 1px solid #44C1A5;
+	width: 200px;
+	color: #4BC0A5;
+}
+input[type='file'] {height: 25px;margin: 5px 6px 5px 0px; padding: 2px 0px 2px 2px; font-size: 16px; font-family: "微软雅黑"; width: 200px;}
+a{text-decoration: none;}
+.info_text{
+	color: #F00;
+}
+.correct_text{ color: #02e207;}
+.error_text{ color:#FF0033;}
+form label{text-align: right; width: 120px; display: inline-block;}
+#main{
+	width:840px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 160px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#footer{ margin: 0 auto; text-align: center; background-color: #999999;height: 50px; line-height: 50px;width: 100%; position: absolute; bottom: 0px;}
+#footer h4{color:#333333;}
+
+.data-table{font-family:"微软雅黑", Arial, Helvetica, sans-serif;width:100%;border-collapse:collapse;}
+.data-table td, .data-table th{font-size:1em;border:1px solid #666666; padding:6px 7px 6px 7px;}
+.data-table th{font-size:1.1em;text-align:center;padding-top:5px;padding-bottom:4px;background-color:#666666;color:#ffffff;}
+.data-table tr.alt td{color:#000000;background-color:#cccccc;}
+.action-bar {
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 250px;
+}

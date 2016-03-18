@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px; border:0px;}
+.wrap-container {
+	width: 1350px;
+	height: auto;
+	background-color: #F6F9F9;
+}
+.wrap-container .school_top {
+	height: 92px;
+	width: 1050px;
+	text-align: center;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #E4E6E6;
+	background-color: #FFF;
+	padding-left: 300px;
+	padding-top: 30px;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.wrap-container .school_top h3 {
+	background-image: url(../image/school_logo.png);
+	background-repeat: no-repeat;
+	width: 753px;
+	height: 61px;
+	display: block;
+}
+.wrap-container .school-area {
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrap-container .school-area .wrap-school-search {
+	height: 55px;
+	width: 840px;
+}
+.wrap-container .school-area .wrap-school-search .school-search {
+	height: 52px;
+	width: 581px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.wrap-container .school-area .wrap-school-search .school-search .search-left.fl {
+	height: 52px;
+	width: 57px;
+	float: left;
+	background-image: url(../image/sear_ico.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #5AC8B0;
+	border-bottom-color: #5AC8B0;
+	border-left-color: #5AC8B0;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.wrap-container .school-area .wrap-school-search .school-search .search-ipt.fl {
+	float: left;
+	height: 52px;
+	width: 384px;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #5AC8B0;
+	border-bottom-color: #5AC8B0;
+}
+.wrap-container .school-area .wrap-school-search .school-search .search-btn.fl {
+	float: left;
+	height: 54px;
+	width: 138px;
+	line-height: 3.0;
+	background-color: #5AC8B0;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-size: 18px;
+	color: #FFF;
+}
+.wrap-container .school-area .wrap-school-search .school-search .search-ipt.fl input {
+	height: 51px;
+	width: 384px;
+	background-color: #F6F9F9;
+	outline:none;
+	font-size: 16px;
+	color: #4BBFA5;
+}
+.wrap-container .school-area .wrap-school-list .school-item .item-title .item-title-txt {
+}
+.wrap-container .school-area .wrap-school-list .school-item {
+	text-align: center;
+}
+.wrap-container .school-area .wrap-school-list .school-item .item-title {
+	clear: both;
+	color: #4BC0A5;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.wrap-container .school-area .wrap-school-list .school-item .school-list a {
+	color: #9A9A9A;
+	font-size: 15px;
+	text-decoration: none;
+}
+.wrap-container .school-area .wrap-school-list {
+	margin-top: 55px;
+}
+.wrap-container .school-area .wrap-school-list .school-item .item-title .item-title-txt span {
+	font-size: 6px;
+}
+.wrap-container .school-bottom {
+	margin-right: auto;
+	margin-left: auto;
+	width: 840px;
+	text-align: center;
+	margin-top: 50px;
+}
+.wrap-container .school-bottom span {
+	display: block;
+	width: 50%;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #5AC8B0;
+	margin-left: 200px;
+}
+.wrap-container .school-bottom .if-contact {
+	color: #4BBFA5;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.wrap-container .school-area .wrap-school-list .school-item .school-list a:hover {
+	color: #4BBFA5;
+}
+.wrap-container .school-bottom .apply-school a {
+	height: 40px;
+	width: 160px;
+	background-color: #4BBFA5;
+}
+.wrap-container .school-bottom .copyright {
+	margin-top: 20px;
+	font-size: 13px;
+	color: #DED4CC;
+}
